@@ -1,0 +1,214 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Paas by ir3</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">Paas</h1>
+        <p class="header">PaaSの情報</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/ir3/PaaS/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/ir3/PaaS/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/ir3/PaaS">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/ir3">ir3</a></p>
+
+
+      </header>
+      <section>
+        <h1>PaaS の時代到来</h1>
+
+<p>heroku で普及したRails PaaSですが、2013年1月時点で海外・国内に渡り数々のサービスが提供されています。
+見渡してみたいので列挙します。</p>
+
+<p>業務システム構築の視点なので、海外ベンダーより国内ベンダーを重視します。</p>
+
+<h2>各種PaaS 概観</h2>
+
+<hr><h3>国内</h3>
+
+<hr><h4>IIJ MOGOK <a href="http://mogok.jp/">http://mogok.jp/</a>
+</h4>
+
+<p>　日本のインターネットの雄 iij がもともとまつもとさんが所属するNaCL
+（まえださんやRuby界の神々を抱える）と組んでクラウドサービスGIOメニューにRails PaaSのMOGOKを追加。β中。
+　国内サーバなので速いし、iijの信頼感もあり業務システムクラウドの本命。</p>
+
+<p>サービス状況
+ 2012/10 オープンβ</p>
+
+<p>参考紹介記事
+　<a href="http://itpro.nikkeibp.co.jp/article/NEWS/20121030/433675/">http://itpro.nikkeibp.co.jp/article/NEWS/20121030/433675/</a></p>
+
+<hr><h4>ペパポ sqale <a href="https://sqale.jp/feature">https://sqale.jp/feature</a>
+</h4>
+
+<p>　Webサービスサーバ分野では大手のペパポが提供するsqaleもすでに有償サービス開始。</p>
+
+<p>サービス状況
+ 2012/8 本番</p>
+
+<p>参考紹介記事
+ペパボ、月額940円のRuby対応PaaS「Sqale」スタート
+<a href="http://ascii.jp/elem/000/000/719/719776/">http://ascii.jp/elem/000/000/719/719776/</a></p>
+
+<hr><h4>ニフティクラウド C4SA <a href="http://c4sa.nifty.com/">http://c4sa.nifty.com/</a>
+</h4>
+
+<p>　ニフティもPaaS正式提供。</p>
+
+<p>サービス状況
+ 2012/7/31 本番</p>
+
+<p>参考紹介記事
+  <a href="http://el.jibun.atmarkit.co.jp/rails/2012/07/rubyphppythonpa-36ca.html">http://el.jibun.atmarkit.co.jp/rails/2012/07/rubyphppythonpa-36ca.html</a></p>
+
+<hr><h4>fluxflex <a href="http://www.fluxflex.com/">http://www.fluxflex.com/</a>
+</h4>
+
+<p>草分け的 2010年時点で始まっていた。今はサンフランシスコに行ってしまった。</p>
+
+<p>サービス状況
+ 2010/11 本番</p>
+
+<p>参考紹介記事</p>
+
+<p>　<a href="http://jp.techcrunch.com/archives/jp-20101025-fluxflex-can-use-ec2-by-several-clicks/">http://jp.techcrunch.com/archives/jp-20101025-fluxflex-can-use-ec2-by-several-clicks/</a></p>
+
+<hr><h4>NTT Com BizホスティングCloud n PaaS <a href="http://www.ntt.com/cloudn/data/paas.html">http://www.ntt.com/cloudn/data/paas.html</a>
+</h4>
+
+<p>　Cloud Foundry利用。企業向け開始中。個人向けは2013/3予定。</p>
+
+<p>サービス状況
+ 2012/12 企業向け本番
+ 2013/03 個人向け本番</p>
+
+<p>参考紹介記事
+　<a href="http://news.livedoor.com/article/detail/7200720/">http://news.livedoor.com/article/detail/7200720/</a></p>
+
+<hr><h4>TIS eXcale <a href="https://www.excale.net/">https://www.excale.net/</a>
+</h4>
+
+<p>　 β 12月に試しましたが、BootStrapがうまく動かず</p>
+
+<p>サービス状況
+ 2012/10 β</p>
+
+<p>参考紹介記事
+　<a href="http://www.tis.co.jp/news/2012/20121015_1.html">http://www.tis.co.jp/news/2012/20121015_1.html</a></p>
+
+<hr><h3>海外系</h3>
+
+<hr><h4>Heroku <a href="http://www.heroku.com/">http://www.heroku.com/</a>
+</h4>
+
+<p>　SalesForceのSaaS先駆者のグループの中で、Rubyの父 まつもとさん、中田さん（Rubyのパッチ貢献王）、
+笹田さん（Ruby1.9以降のVM YARV開発者）も抱え込んで最大の勢力。ベースはEC2なのでレイテンシや事故の難点も。</p>
+
+<p>サービス状況
+ 2010/ SalesForece傘下に
+ 2011/12 heroku ja meetup開始</p>
+
+<p>参考紹介記事
+　<a href="http://builder.japan.zdnet.com/virtualization/sp_heroku2012/35018326/">http://builder.japan.zdnet.com/virtualization/sp_heroku2012/35018326/</a></p>
+
+<hr><h4>Amazon Elastic Beanstalk <a href="http://aws.amazon.com/jp/elasticbeanstalk/">http://aws.amazon.com/jp/elasticbeanstalk/</a>
+</h4>
+
+<p>　アマゾンもPaaS提供 β。</p>
+
+<p>サービス状況
+ 2012/12 Rubyサポートを発表</p>
+
+<p>参考紹介記事
+<a href="http://www.publickey1.jp/blog/12/amazonrubyelastic_banstalkjavaphppythonnetruby.html">http://www.publickey1.jp/blog/12/amazonrubyelastic_banstalkjavaphppythonnetruby.html</a></p>
+
+<hr><h4>デル Project Fast PaaS</h4>
+
+<p>　<a href="http://www.dell.com/Learn/us/en/555/cloud-computing/dell-cloud-computing-foundry">http://www.dell.com/Learn/us/en/555/cloud-computing/dell-cloud-computing-foundry</a></p>
+
+<p>　プレビュー中。Croud Foundry利用。</p>
+
+<p>サービス状況
+ 2012/12 プレビュー版公開</p>
+
+<p>参考紹介記事
+　<a href="http://www.publickey1.jp/blog/12/paasproject_fast_paascloud_foundry.html">http://www.publickey1.jp/blog/12/paasproject_fast_paascloud_foundry.html</a></p>
+
+<hr><h4>Engine yard <a href="http://www.engineyard.co.jp/">http://www.engineyard.co.jp/</a>
+</h4>
+
+<p>　老舗。日本語のサービスも開始している。</p>
+
+<p>サービス状況
+ 2012/9 日本法人設立
+ 2012/11 オラクル出資発表</p>
+
+<p>参考紹介記事
+　<a href="http://www.publickey1.jp/blog/12/engine_yardoracle_cloudrubyphpnodejspaas.html">http://www.publickey1.jp/blog/12/engine_yardoracle_cloudrubyphpnodejspaas.html</a></p>
+
+<hr><h4>Redhat OpenShift <a href="https://openshift.redhat.com/">https://openshift.redhat.com/</a>
+</h4>
+
+<p>　Node.jsに力が入っていそう。</p>
+
+<p>サービス状況
+ 2012/8 β提供中
+ 2012/年内 有償化予定</p>
+
+<p>参考紹介記事
+<a href="http://itpro.nikkeibp.co.jp/article/Active/20120801/413456/">http://itpro.nikkeibp.co.jp/article/Active/20120801/413456/</a></p>
+
+<hr><h4>Cloud Foundry <a href="http://www.cloudfoundry.com/">http://www.cloudfoundry.com/</a>
+</h4>
+
+<p>　Cloud Foundryはクラウドサービスを実現するオープンソースプロジェクト。
+　VMWare社が自社サービスでも提供している。</p>
+
+<p>サービス状況
+ 2013/1現在 各社のサービスで利用されている</p>
+
+<p>参考紹介記事
+  <a href="http://www.atmarkit.co.jp/fnetwork/rensai/cloudfoundry01/01.html">http://www.atmarkit.co.jp/fnetwork/rensai/cloudfoundry01/01.html</a></p>
+
+<hr><h4>DotCloud <a href="http://www.dotcloud.com/">http://www.dotcloud.com/</a>
+</h4>
+
+<p>参考紹介記事
+　<a href="http://www.publickey1.jp/blog/11/paasdotcloud.html">http://www.publickey1.jp/blog/11/paasdotcloud.html</a></p>
+
+<p>　宮川達彦氏が、その後DotCloudから Cookpadに移動されたので、その後はどうなのでしょうね。</p>
+
+<hr><h3>〔番外〕</h3>
+
+<hr><h4>Duostack <a href="http://www.duostack.com/">http://www.duostack.com/</a>
+</h4>
+
+<p>参考紹介記事
+　<a href="http://tech.a-listers.jp/2011/05/03/duostack-open-beta/">http://tech.a-listers.jp/2011/05/03/duostack-open-beta/</a></p>
+
+<h2>　今はどうなってる？</h2>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
