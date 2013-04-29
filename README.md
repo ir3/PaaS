@@ -79,6 +79,11 @@ http://ascii.jp/elem/000/000/719/719776/
 　http://www.tis.co.jp/news/2012/20121015_1.html
 
 ----
+#### サイボーズ kintone https://kintone.cybozu.com/jp/
+
+　一般的PaaSとは範疇が若干異なりそうですがSaaSでもIaaSでもないのでこのような簡易アプリ構築支援サービスもPaaSのひとつとなのでしょう。
+　
+----
 ### 海外系
 ----
 
